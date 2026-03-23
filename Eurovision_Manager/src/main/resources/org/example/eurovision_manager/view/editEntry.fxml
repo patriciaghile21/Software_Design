@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="528.0" style="-fx-background-color: #FFC0CB;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.eurovision_manager.controller.EditEntryController">
+   <children>
+      <HBox layoutX="76.0" layoutY="71.0" prefHeight="38.0" prefWidth="248.0">
+         <children>
+            <Label fx:id="countryLabel1" prefHeight="26.0" prefWidth="99.0" text="Country:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="countryField1" prefHeight="27.0" prefWidth="137.0" style="-fx-border-color: #000000;" />
+         </children>
+      </HBox>
+      <HBox layoutX="76.0" layoutY="109.0" prefHeight="38.0" prefWidth="248.0">
+         <children>
+            <Label fx:id="artistLabel1" prefHeight="26.0" prefWidth="99.0" text="Artist:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="artistField1" prefHeight="27.0" prefWidth="138.0" style="-fx-border-color: #000000;" />
+         </children>
+      </HBox>
+      <HBox layoutX="76.0" layoutY="147.0" prefHeight="38.0" prefWidth="248.0">
+         <children>
+            <Label fx:id="titleLabel1" prefHeight="26.0" prefWidth="99.0" text="Title:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="titleField1" prefHeight="27.0" prefWidth="137.0" style="-fx-border-color: #000000;" />
+         </children>
+      </HBox>
+      <HBox layoutX="76.0" layoutY="185.0" prefHeight="38.0" prefWidth="238.0">
+         <children>
+            <Label fx:id="yearLabel1" prefHeight="26.0" prefWidth="99.0" text="Year:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="yearField1" prefHeight="27.0" prefWidth="137.0" style="-fx-border-color: #000000;" />
+         </children>
+      </HBox>
+      <HBox layoutX="76.0" layoutY="223.0" prefHeight="38.0" prefWidth="248.0" />
+      <Button fx:id="editButton" layoutX="379.0" layoutY="123.0" mnemonicParsing="false" onAction="#onEditButton" prefHeight="46.0" prefWidth="78.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" text="Edit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
