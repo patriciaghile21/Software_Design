@@ -13,25 +13,26 @@ public class ConnectionFactory {
 
     private static final ConnectionFactory singleInstance = new ConnectionFactory();
 
+    private Connection connection;
+
     private ConnectionFactory() {
         try {
             Class.forName(DRIVER);
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private Connection createConnection() {
-        try {
-            return DriverManager.getConnection(DBURL, USER, PASS);
-        } catch (SQLException e) {
+            this.connection = DriverManager.getConnection(DBURL, USER, PASS);
+        } catch (ClassNotFoundException | SQLException e) {
             System.out.println("Fail connecting to database!");
             e.printStackTrace();
-            return null;
         }
     }
 
     public static Connection getConnection() {
-        return singleInstance.createConnection();
+        try {
+            if (singleInstance.connection == null || singleInstance.connection.isClosed()) {
+                singleInstance.connection = DriverManager.getConnection(DBURL, USER, PASS);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return singleInstance.connection;
     }
 }

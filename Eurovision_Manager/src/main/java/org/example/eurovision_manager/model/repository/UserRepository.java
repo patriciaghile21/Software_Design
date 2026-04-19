@@ -20,7 +20,8 @@ public class UserRepository {
                         rs.getString("username"),
                         rs.getString("password"),
                         rs.getString("role"),
-                        rs.getString("country")
+                        rs.getString("country"),
+                        rs.getString("email")
                 );
             }
         } catch (SQLException e) {

@@ -22,7 +22,7 @@ public class AddEntryController {
     @FXML
     private Button addButton;
 
-    private final EntryService entryService = new EntryService();
+    private final EntryService entryService = EntryService.getInstance();
     private User currentUser;
 
     public void setCurrentUser(User user) {

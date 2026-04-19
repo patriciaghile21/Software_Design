@@ -10,6 +10,9 @@ module org.example.eurovision_manager {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires com.fasterxml.jackson.databind;
+
+    requires com.fasterxml.jackson.dataformat.xml;
 
     requires java.sql;
     requires org.postgresql.jdbc;
@@ -17,8 +20,7 @@ module org.example.eurovision_manager {
     opens org.example.eurovision_manager to javafx.fxml;
     exports org.example.eurovision_manager;
 
-    opens org.example.eurovision_manager.model.entity to javafx.base;
-    exports org.example.eurovision_manager.model.entity;
+    opens org.example.eurovision_manager.model.entity to javafx.base, com.fasterxml.jackson.databind;
 
     opens org.example.eurovision_manager.model.repository to java.sql;
     exports org.example.eurovision_manager.model.repository;
@@ -30,4 +32,5 @@ module org.example.eurovision_manager {
 
     opens org.example.eurovision_manager.connection to java.sql;
     exports org.example.eurovision_manager.connection;
+
 }

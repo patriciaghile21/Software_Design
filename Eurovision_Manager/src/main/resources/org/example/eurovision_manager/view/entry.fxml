@@ -56,5 +56,7 @@
             <Font size="17.0" />
          </font>
       </Label>
+      <ComboBox prefWidth="150.0" />
+      <ComboBox fx:id="exportComboBox" layoutX="33.0" layoutY="380.0" onAction="#handleExport" prefWidth="150.0" promptText="Export Data" />
    </children>
 </AnchorPane>
