@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "country": "Serbia",
+    "artist": "Lavina",
+    "title": "Kraj Mene",
+    "releaseYear": 2026
+  },
+  {
+    "id": 2,
+    "country": "Cyprus",
+    "artist": "Antigoni",
+    "title": "Jalla",
+    "releaseYear": 2026
+  },
+  {
+    "id": 3,
+    "country": "Finland",
+    "artist": "Linda & Pete",
+    "title": "Liekinheitin",
+    "releaseYear": 2025
+  },
+  {
+    "id": 4,
+    "country": "Romania",
+    "artist": "Capitanescu",
+    "title": "choke me",
+    "releaseYear": 2023
+  },
+  {
+    "id": 5,
+    "country": "Denmark",
+    "artist": "Soren Torpegaard",
+    "title": "For vi gar hjerm",
+    "releaseYear": 2026
+  },
+  {
+    "id": 6,
+    "country": "TestCountry",
+    "artist": "TestArtist",
+    "title": "TestSong",
+    "releaseYear": 2026
+  }
+]

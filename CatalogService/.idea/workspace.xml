@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c5c7884-8840-400d-bd51-e91d1aa7581f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/connection/ConnectionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/controller/AddEntryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/controller/EditEntryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/controller/EntryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/entity/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/repository/EntryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/service/EntryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/eurovision_manager/view/addEntry.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/eurovision_manager/view/editEntry.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/eurovision_manager/view/entry.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/eurovision_manager/view/loginESC.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3CXGxVlqrSFyUvg43jtHvGAIlBz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "HTTP Request.teste | 1. ADAUGA o piesa noua in baza de date.executor": "Run",
+    "HTTP Request.teste | 1. QUERY Test (Read) - Get all entries.executor": "Run",
+    "HTTP Request.teste | 2. COMMAND Test (Create) - Add a new entry (As HOD Romania).executor": "Run",
+    "HTTP Request.teste | 2. STERGE piesa cu ID-ul 5 (Denmark).executor": "Run",
+    "HTTP Request.teste | 2. STERGE piesa cu ID-ul 7.executor": "Run",
+    "HTTP Request.teste | 3. COMMAND Test (Delete) - Delete the entry with ID 2 (As ADMIN).executor": "Run",
+    "HTTP Request.teste | 4. UPDATE (Command) - Modifica piesa cu ID-ul 1 (Serbia).executor": "Run",
+    "HTTP Request.teste | 5. SEARCH / FILTER (Query) - Cauta doar piesele din \"Romania\".executor": "Run",
+    "HTTP Request.teste | 6. TEST DE SECURITATE - Visitor incearca sa stearga o piesa (Trebuie sa dea EROARE).executor": "Run",
+    "HTTP Request.teste | 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE).executor": "Run",
+    "JUnit.CatalogServiceTest.executor": "Run",
+    "JUnit.CatalogServiceTest.testQueryOperation.executor": "Run",
+    "JUnit.CatalogServiceTest.testTemplatePatternExport.executor": "Run",
+    "Maven.Eurovision_Manager [clean].executor": "Run",
+    "Maven.Eurovision_Manager [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/SD/TEMA_3/UserService",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.eurovision_manager" />
+    </key>
+  </component>
+  <component name="RunManager" selected="HTTP Request.teste | 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.eurovision_manager.Main" />
+      <module name="Eurovision_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.eurovision_manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="teste | 6. TEST DE SECURITATE - Visitor incearca sa stearga o piesa (Trebuie sa dea EROARE)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/teste.http" index="9" requestIdentifier="6. TEST DE SECURITATE - Visitor incearca sa stearga o piesa (Trebuie sa dea EROARE)" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="teste | 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/teste.http" index="10" requestIdentifier="7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE)" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="CatalogServiceTest.testQueryOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Eurovision_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.eurovision_manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.eurovision_manager" />
+      <option name="MAIN_CLASS_NAME" value="org.example.eurovision_manager.CatalogServiceTest" />
+      <option name="METHOD_NAME" value="testQueryOperation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogServiceTest.testTemplatePatternExport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Eurovision_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.eurovision_manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.eurovision_manager" />
+      <option name="MAIN_CLASS_NAME" value="org.example.eurovision_manager.CatalogServiceTest" />
+      <option name="METHOD_NAME" value="testTemplatePatternExport" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CatalogService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CatalogService" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.teste | 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE)" />
+        <item itemvalue="HTTP Request.teste | 6. TEST DE SECURITATE - Visitor incearca sa stearga o piesa (Trebuie sa dea EROARE)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CatalogServiceTest.testQueryOperation" />
+        <item itemvalue="JUnit.CatalogServiceTest.testTemplatePatternExport" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c5c7884-8840-400d-bd51-e91d1aa7581f" name="Changes" comment="" />
+      <created>1776524749043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776524749043</updated>
+      <workItem from="1776524751047" duration="10736000" />
+      <workItem from="1776692798664" duration="3556000" />
+      <workItem from="1777542276134" duration="127000" />
+      <workItem from="1778359274996" duration="981000" />
+      <workItem from="1778361313579" duration="17000" />
+      <workItem from="1778361384852" duration="990000" />
+      <workItem from="1778362391640" duration="361000" />
+      <workItem from="1778362766046" duration="4000" />
+      <workItem from="1778362778994" duration="3000" />
+      <workItem from="1778363052181" duration="1910000" />
+      <workItem from="1778438588441" duration="5932000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

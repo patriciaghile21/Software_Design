@@ -1,0 +1,169 @@
+DELETE http://localhost:7001/entries/4
+X-User-Role: HOD
+X-User-Country: Finland
+X-User-Email: hod_finland@yle.fi
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-05-10T225056.403.txt
+
+###
+
+DELETE http://localhost:7001/entries/1
+X-User-Role: VISITOR
+X-User-Country: NULL
+X-User-Email: fan.esc@gmail.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-05-10T224904.403.txt
+
+###
+
+DELETE http://localhost:7001/entries/7
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-05-10T220629.200.txt
+
+###
+
+GET http://localhost:7001/entries?search=Romania
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-05-10T220550.200.json
+
+###
+
+PUT http://localhost:7001/entries/1
+Content-Type: application/json
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+Content-Length: 102
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "country": "Serbia",
+  "artist": "Lavina",
+  "title": "Kraj Mene - Remix",
+  "releaseYear": 2026
+}
+
+<> 2026-05-10T220541.200.txt
+
+###
+
+PUT http://localhost:7001/entries/1
+Content-Type: application/json
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+Content-Length: 118
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "country": "Serbia",
+  "artist": "Lavina (Versiune Noua)",
+  "title": "Kraj Mene - Remix",
+  "releaseYear": 2026
+}
+
+<> 2026-05-10T220516.200.txt
+
+###
+
+DELETE http://localhost:7001/entries/5
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-05-10T220227.200.txt
+
+###
+
+POST http://localhost:7001/entries
+Content-Type: application/json
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+Content-Length: 102
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "country": "Moldova",
+  "artist": "Zdob si Zdub",
+  "title": "Trenuletul",
+  "releaseYear": 2022
+}
+
+<> 2026-05-10T220145.201.txt
+
+###
+
+DELETE http://localhost:7001/entries/2
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-05-10T215910.200.txt
+
+###
+
+POST http://localhost:7001/entries
+Content-Type: application/json
+X-User-Role: HOD
+X-User-Country: Romania
+X-User-Email: hod@tvr.ro
+Content-Length: 113
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "country": "Romania",
+  "artist": "New Artist",
+  "title": "Test song from IntelliJ",
+  "releaseYear": 2026
+}
+
+<> 2026-05-10T215900.201.txt
+
+###
+
+GET http://localhost:7001/entries
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-05-10T215832.200.json
+
+###
+

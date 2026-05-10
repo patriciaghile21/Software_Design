@@ -1,0 +1,85 @@
+### 1. QUERY Test (Read) - Get all entries
+GET http://localhost:7001/entries
+
+
+### 2. COMMAND Test (Create) - Add a new entry (As HOD Romania)
+POST http://localhost:7001/entries
+Content-Type: application/json
+X-User-Role: HOD
+X-User-Country: Romania
+X-User-Email: hod@tvr.ro
+
+{
+  "country": "Romania",
+  "artist": "New Artist",
+  "title": "Test song from IntelliJ",
+  "releaseYear": 2026
+}
+
+
+### 3. COMMAND Test (Delete) - Delete the entry with ID 2 (As ADMIN)
+DELETE http://localhost:7001/entries/2
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+
+
+### 1. ADAUGA o piesa noua in baza de date
+POST http://localhost:7001/entries
+Content-Type: application/json
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+
+{
+  "country": "Moldova",
+  "artist": "Zdob si Zdub",
+  "title": "Trenuletul",
+  "releaseYear": 2022
+}
+
+
+### 2. STERGE piesa cu ID-ul 5 (Denmark)
+DELETE http://localhost:7001/entries/5
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+
+### 4. UPDATE (Command) - Modifica piesa cu ID-ul 1 (Serbia)
+PUT http://localhost:7001/entries/1
+Content-Type: application/json
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+
+{
+  "country": "Serbia",
+  "artist": "Lavina",
+  "title": "Kraj Mene - Remix",
+  "releaseYear": 2026
+}
+
+
+### 5. SEARCH / FILTER (Query) - Cauta doar piesele din "Romania"
+GET http://localhost:7001/entries?search=Romania
+
+
+
+### 2. STERGE piesa cu ID-ul 7
+DELETE http://localhost:7001/entries/7
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+
+### 6. TEST DE SECURITATE - Visitor incearca sa stearga o piesa (Trebuie sa dea EROARE)
+DELETE http://localhost:7001/entries/1
+X-User-Role: VISITOR
+X-User-Country: NULL
+X-User-Email: fan.esc@gmail.com
+
+
+### 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE)
+DELETE http://localhost:7001/entries/4
+X-User-Role: HOD
+X-User-Country: Finland
+X-User-Email: hod_finland@yle.fi
