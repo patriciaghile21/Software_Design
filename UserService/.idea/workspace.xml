@@ -5,28 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c5c7884-8840-400d-bd51-e91d1aa7581f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/connection/ConnectionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/controller/AddEntryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/controller/EditEntryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/controller/EntryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/entity/Entry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/repository/EntryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/service/EntryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/model/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/eurovision_manager/view/addEntry.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/eurovision_manager/view/editEntry.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/eurovision_manager/view/entry.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/eurovision_manager/view/loginESC.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogService/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogService/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogService/teste.http" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/teste.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -62,14 +47,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "HTTP Request.tests | 1. LOGIN SUCCESS (Admin).executor": "Run",
+    "HTTP Request.tests | 2. LOGIN SUCCESS (HOD Romania).executor": "Run",
+    "HTTP Request.tests | 3. LOGIN FAIL (Wrong Password).executor": "Run",
     "JUnit.UserServiceTest.testLoginQuery.executor": "Run",
     "Maven.Eurovision_Manager [clean].executor": "Run",
     "Maven.Eurovision_Manager [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "assignment-3",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/SD/TEMA_3/UserService",
+    "last_opened_file_path": "C:/SD/TEMA_3/CatalogService",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,7 +72,29 @@
       <recent name="org.example.eurovision_manager" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserServiceTest.testLoginQuery">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.eurovision_manager.Main" />
+      <module name="Eurovision_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.eurovision_manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests | 1. LOGIN SUCCESS (Admin)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" requestIdentifier="1. LOGIN SUCCESS (Admin)" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="tests | 2. LOGIN SUCCESS (HOD Romania)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" index="2" requestIdentifier="2. LOGIN SUCCESS (HOD Romania)" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="tests | 3. LOGIN FAIL (Wrong Password)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" index="3" requestIdentifier="3. LOGIN FAIL (Wrong Password)" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="UserServiceTest.testLoginQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Eurovision_Manager" />
       <extension name="coverage">
@@ -116,6 +127,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserServiceTest.testLoginQuery" />
+        <item itemvalue="HTTP Request.tests | 3. LOGIN FAIL (Wrong Password)" />
+        <item itemvalue="HTTP Request.tests | 2. LOGIN SUCCESS (HOD Romania)" />
+        <item itemvalue="HTTP Request.tests | 1. LOGIN SUCCESS (Admin)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,11 +163,27 @@
       <workItem from="1778363042024" duration="9000" />
       <workItem from="1778363431908" duration="816000" />
       <workItem from="1778436291588" duration="1109000" />
-      <workItem from="1778438724521" duration="4402000" />
+      <workItem from="1778438724521" duration="4967000" />
+      <workItem from="1778497251026" duration="5234000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/Main.java</url>
+          <line>7</line>
+          <properties class="org.example.eurovision_manager.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,3 +1,24 @@
+POST http://localhost:7001/entries
+Content-Type: application/json
+X-User-Role: ADMIN
+X-User-Country: NULL
+X-User-Email: admin@ebu.com
+Content-Length: 102
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "country": "Moldova",
+  "artist": "Zdob si Zdub",
+  "title": "Trenuletul",
+  "releaseYear": 2022
+}
+
+<> 2026-05-11T140329.201.txt
+
+###
+
 DELETE http://localhost:7001/entries/4
 X-User-Role: HOD
 X-User-Country: Finland

@@ -7,7 +7,7 @@ import org.example.eurovision_manager.model.service.UserService;
 public class Main {
     public static void main(String[] args) {
         UserService userService = new UserService();
-        Javalin app = Javalin.create().start(7000);
+        Javalin app = Javalin.create().start(7002);
 
         app.post("/login", ctx -> {
             User credentials = ctx.bodyAsClass(User.class);

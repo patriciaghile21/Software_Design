@@ -24,7 +24,7 @@ X-User-Country: NULL
 X-User-Email: admin@ebu.com
 
 
-### 1. ADAUGA o piesa noua in baza de date
+### 1. ADD A NEW ENTRY
 POST http://localhost:7001/entries
 Content-Type: application/json
 X-User-Role: ADMIN
@@ -39,13 +39,13 @@ X-User-Email: admin@ebu.com
 }
 
 
-### 2. STERGE piesa cu ID-ul 5 (Denmark)
+### 2. DELETE ENTRY WITH ID 5 (DENMARK)
 DELETE http://localhost:7001/entries/5
 X-User-Role: ADMIN
 X-User-Country: NULL
 X-User-Email: admin@ebu.com
 
-### 4. UPDATE (Command) - Modifica piesa cu ID-ul 1 (Serbia)
+### 4. UPDATE (Command) - MODIFY ENTRY WITH ID 1
 PUT http://localhost:7001/entries/1
 Content-Type: application/json
 X-User-Role: ADMIN
@@ -60,25 +60,25 @@ X-User-Email: admin@ebu.com
 }
 
 
-### 5. SEARCH / FILTER (Query) - Cauta doar piesele din "Romania"
+### 5. SEARCH / FILTER (Query) - SEARCH ENTRY ROMANIA
 GET http://localhost:7001/entries?search=Romania
 
 
 
-### 2. STERGE piesa cu ID-ul 7
+### 2. DELETE ENTRY WITH ID 7
 DELETE http://localhost:7001/entries/7
 X-User-Role: ADMIN
 X-User-Country: NULL
 X-User-Email: admin@ebu.com
 
-### 6. TEST DE SECURITATE - Visitor incearca sa stearga o piesa (Trebuie sa dea EROARE)
+### 6. VISITOR TRIES TO DELETE AN ENTRY
 DELETE http://localhost:7001/entries/1
 X-User-Role: VISITOR
 X-User-Country: NULL
 X-User-Email: fan.esc@gmail.com
 
 
-### 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE)
+### 7. HOD OF FINLAND TRIES TO DELETE THE ENTRY OF ROMANIA
 DELETE http://localhost:7001/entries/4
 X-User-Role: HOD
 X-User-Country: Finland
