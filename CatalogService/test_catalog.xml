@@ -41,4 +41,18 @@
     <title>Trenuletul</title>
     <releaseYear>2022</releaseYear>
   </item>
+  <item>
+    <id>10</id>
+    <country>TestCountry</country>
+    <artist>TestArtist</artist>
+    <title>TestSong</title>
+    <releaseYear>2026</releaseYear>
+  </item>
+  <item>
+    <id>11</id>
+    <country>Romania</country>
+    <artist>New Artist</artist>
+    <title>Test song</title>
+    <releaseYear>2026</releaseYear>
+  </item>
 </ArrayList>

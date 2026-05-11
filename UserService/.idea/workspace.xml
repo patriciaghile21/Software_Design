@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3c5c7884-8840-400d-bd51-e91d1aa7581f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../CatalogService/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CatalogService/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CatalogService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogService/test_catalog.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/test_catalog.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogService/test_catalog.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/test_catalog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogService/test_catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/test_catalog.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CatalogService/teste.http" beforeDir="false" afterPath="$PROJECT_DIR$/../CatalogService/teste.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,10 +127,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserServiceTest.testLoginQuery" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="HTTP Request.tests | 3. LOGIN FAIL (Wrong Password)" />
         <item itemvalue="HTTP Request.tests | 2. LOGIN SUCCESS (HOD Romania)" />
         <item itemvalue="HTTP Request.tests | 1. LOGIN SUCCESS (Admin)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +165,7 @@
       <workItem from="1778436291588" duration="1109000" />
       <workItem from="1778438724521" duration="4967000" />
       <workItem from="1778497251026" duration="5234000" />
+      <workItem from="1778503446402" duration="3988000" />
     </task>
     <servers />
   </component>
@@ -174,14 +175,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/eurovision_manager/Main.java</url>
-          <line>7</line>
-          <properties class="org.example.eurovision_manager.Main" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
+          <line>8</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
