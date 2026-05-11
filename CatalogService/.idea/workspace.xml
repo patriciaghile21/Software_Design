@@ -45,44 +45,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Main.executor": "Run",
-    "HTTP Request.teste | 1. ADAUGA o piesa noua in baza de date.executor": "Run",
-    "HTTP Request.teste | 1. QUERY Test (Read) - Get all entries.executor": "Run",
-    "HTTP Request.teste | 2. COMMAND Test (Create) - Add a new entry (As HOD Romania).executor": "Run",
-    "HTTP Request.teste | 2. STERGE piesa cu ID-ul 5 (Denmark).executor": "Run",
-    "HTTP Request.teste | 2. STERGE piesa cu ID-ul 7.executor": "Run",
-    "HTTP Request.teste | 3. COMMAND Test (Delete) - Delete the entry with ID 2 (As ADMIN).executor": "Run",
-    "HTTP Request.teste | 4. UPDATE (Command) - Modifica piesa cu ID-ul 1 (Serbia).executor": "Run",
-    "HTTP Request.teste | 5. SEARCH / FILTER (Query) - Cauta doar piesele din \"Romania\".executor": "Run",
-    "HTTP Request.teste | 6. TEST DE SECURITATE - Visitor incearca sa stearga o piesa (Trebuie sa dea EROARE).executor": "Run",
-    "HTTP Request.teste | 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE).executor": "Run",
-    "JUnit.CatalogServiceTest.executor": "Run",
-    "JUnit.CatalogServiceTest.testQueryOperation.executor": "Run",
-    "JUnit.CatalogServiceTest.testTemplatePatternExport.executor": "Run",
-    "Maven.Eurovision_Manager [clean].executor": "Run",
-    "Maven.Eurovision_Manager [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "assignment-3",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/SD/TEMA_3/CatalogService",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 1. ADAUGA o piesa noua in baza de date.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 1. QUERY Test (Read) - Get all entries.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 2. COMMAND Test (Create) - Add a new entry (As HOD Romania).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 2. STERGE piesa cu ID-ul 5 (Denmark).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 2. STERGE piesa cu ID-ul 7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 3. COMMAND Test (Delete) - Delete the entry with ID 2 (As ADMIN).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 4. UPDATE (Command) - Modifica piesa cu ID-ul 1 (Serbia).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 5. SEARCH / FILTER (Query) - Cauta doar piesele din \&quot;Romania\&quot;.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 6. TEST DE SECURITATE - Visitor incearca sa stearga o piesa (Trebuie sa dea EROARE).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.teste | 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CatalogServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CatalogServiceTest.testQueryOperation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CatalogServiceTest.testTemplatePatternExport.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Eurovision_Manager [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Eurovision_Manager [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;assignment-3&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SD/TEMA_3/CatalogService&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.eurovision_manager" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CatalogServiceTest.testTemplatePatternExport">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.eurovision_manager.Main" />
       <module name="Eurovision_Manager" />
@@ -105,7 +105,7 @@
     <configuration name="teste | 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/teste.http" index="10" requestIdentifier="7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE)" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="CatalogServiceTest.testQueryOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CatalogServiceTest.testTemplatePatternExport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Eurovision_Manager" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +115,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.eurovision_manager" />
       <option name="MAIN_CLASS_NAME" value="org.example.eurovision_manager.CatalogServiceTest" />
-      <option name="METHOD_NAME" value="testQueryOperation" />
+      <option name="METHOD_NAME" value="testTemplatePatternExport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CatalogServiceTest.testTemplatePatternExport" />
         <item itemvalue="Application.Main" />
         <item itemvalue="HTTP Request.teste | 1. ADAUGA o piesa noua in baza de date" />
         <item itemvalue="HTTP Request.teste | 7. TEST DE SECURITATE - HOD Finlanda incearca sa stearga piesa Romaniei (Trebuie sa dea EROARE)" />
         <item itemvalue="HTTP Request.teste | 6. TEST DE SECURITATE - Visitor incearca sa stearga o piesa (Trebuie sa dea EROARE)" />
-        <item itemvalue="JUnit.CatalogServiceTest.testQueryOperation" />
       </list>
     </recent_temporary>
   </component>
