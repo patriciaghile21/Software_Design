@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Eurovision Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+<nav class="sidebar">
+    <div class="brand" data-i18n="adminPanel">Admin Panel</div>
+
+    <div style="padding: 10px 20px;">
+        <select id="language-select" onchange="changeLanguage()" style="width: 100%; padding: 5px; background: #333; color: white; border: 1px solid #555;">
+            <option value="en">English</option>
+            <option value="ro">Română</option>
+        </select>
+    </div>
+
+    <div class="menu-items">
+        <button class="menu-btn" onclick="openAddModal()" data-i18n="addNew">Add New Entry</button>
+        <button class="menu-btn" onclick="resetView()" data-i18n="viewAll">View All Entries</button>
+    </div>
+    <div class="filters-section">
+        <label data-i18n="search">Search:</label>
+        <input type="text" id="search-input" oninput="loadEntries()">
+
+        <label data-i18n="sortBy">Sort by:</label>
+        <select id="sort-select" onchange="loadEntries()">
+            <option value="Country (A-Z)" data-i18n="sortCountryAZ">Country (A-Z)</option>
+            <option value="Country (Z-A)" data-i18n="sortCountryZA">Country (Z-A)</option>
+            <option value="Artist (A-Z)" data-i18n="sortArtistAZ">Artist (A-Z)</option>
+            <option value="Artist (Z-A)" data-i18n="sortArtistZA">Artist (Z-A)</option>
+            <option value="Year (Ascending)" data-i18n="sortYearAsc">Year (Ascending)</option>
+            <option value="Year (Descending)" data-i18n="sortYearDesc">Year (Descending)</option>
+        </select>
+
+        <label data-i18n="exportFormat">Export Format:</label>
+        <select id="export-format">
+            <option value="csv">CSV</option>
+            <option value="json">JSON</option>
+            <option value="xml">XML</option>
+        </select>
+        <button class="export-btn" onclick="exportData()" data-i18n="exportBtn">Export Data</button>
+    </div>
+    <button class="logout-btn" onclick="logout()" data-i18n="logout">Logout</button>
+</nav>
+
+<main class="content-area">
+    <header class="content-header">
+        <h2 data-i18n="dbTitle">Eurovision Entries Database</h2>
+    </header>
+    <div class="table-container">
+        <table id="entries-table">
+            <thead>
+            <tr>
+                <th data-i18n="colCountry">Country</th>
+                <th data-i18n="colArtist">Artist</th>
+                <th data-i18n="colTitle">Title</th>
+                <th data-i18n="colYear">Year</th>
+                <th data-i18n="colActions">Actions</th>
+            </tr>
+            </thead>
+            <tbody id="entries-body">
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<div id="entry-modal" class="modal">
+    <div class="modal-content">
+        <h3 id="modal-title">Add New Entry</h3>
+        <input type="text" id="entry-country" placeholder="Country">
+        <input type="text" id="entry-artist" placeholder="Artist">
+        <input type="text" id="entry-title" placeholder="Song Title">
+        <input type="number" id="entry-year" placeholder="Year">
+
+        <div class="modal-actions">
+            <button onclick="saveNewEntry()">Save</button>
+            <button onclick="closeModal()">Cancel</button>
+        </div>
+        <div id="modal-message"></div>
+    </div>
+</div>
+
+<div class="chat-container">
+    <div class="chat-header" onclick="toggleChat()" data-i18n="chatHeader">Live Chat</div>
+
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Type a message..." data-i18n="chatInput" onkeypress="handleChatKeyPress(event)">
+        <button onclick="sendChatMessage()" data-i18n="chatSend">Send</button>
+    </div>
+</div>
+
+<script src="app.js"></script>
+<script>
+    window.onload = function() {
+        if(!sessionStorage.getItem('userRole')) {
+            window.location.href = 'index.html';
+        } else {
+            loadEntries();
+            changeLanguage();
+            initChat();
+
+        }
+    };
+</script>
+</body>
+</html>

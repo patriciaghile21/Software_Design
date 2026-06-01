@@ -1,0 +1,58 @@
+<ArrayList>
+  <item>
+    <id>1</id>
+    <country>Serbia</country>
+    <artist>Lavina</artist>
+    <title>Kraj Mene - Remix</title>
+    <releaseYear>2026</releaseYear>
+  </item>
+  <item>
+    <id>3</id>
+    <country>Finland</country>
+    <artist>Linda &amp; Pete</artist>
+    <title>Liekinheitin</title>
+    <releaseYear>2025</releaseYear>
+  </item>
+  <item>
+    <id>4</id>
+    <country>Romania</country>
+    <artist>Capitanescu</artist>
+    <title>choke me</title>
+    <releaseYear>2023</releaseYear>
+  </item>
+  <item>
+    <id>6</id>
+    <country>TestCountry</country>
+    <artist>TestArtist</artist>
+    <title>TestSong</title>
+    <releaseYear>2026</releaseYear>
+  </item>
+  <item>
+    <id>8</id>
+    <country>Moldova</country>
+    <artist>Zdob si Zdub</artist>
+    <title>Trenuletul</title>
+    <releaseYear>2022</releaseYear>
+  </item>
+  <item>
+    <id>9</id>
+    <country>Moldova</country>
+    <artist>Zdob si Zdub</artist>
+    <title>Trenuletul</title>
+    <releaseYear>2022</releaseYear>
+  </item>
+  <item>
+    <id>10</id>
+    <country>TestCountry</country>
+    <artist>TestArtist</artist>
+    <title>TestSong</title>
+    <releaseYear>2026</releaseYear>
+  </item>
+  <item>
+    <id>11</id>
+    <country>Romania</country>
+    <artist>New Artist</artist>
+    <title>Test song</title>
+    <releaseYear>2026</releaseYear>
+  </item>
+</ArrayList>
